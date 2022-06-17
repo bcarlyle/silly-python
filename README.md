@@ -17,3 +17,12 @@ pip install virtualenv
 
 python3 -m venv <env> # Create new environment
 ```
+
+## Code Samples
+### List comprehension
+Syntax: _[ expression **for** item **in** list **if** condition ]_
+```
+evens = [i for i in range(20) if i%2==0]
+print(evens)
+# [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+```
