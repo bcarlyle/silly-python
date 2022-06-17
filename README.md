@@ -26,3 +26,6 @@ evens = [i for i in range(20) if i%2==0]
 print(evens)
 # [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 ```
+
+## Helpful Tips
+* Use a range object instead of a list when possible (requires MUCH less memory)
